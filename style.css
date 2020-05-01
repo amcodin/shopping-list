@@ -1,0 +1,74 @@
+html { 
+  background: url(groceries.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	margin: 0;
+}
+
+h1, p {
+	color: #D6D8DD;
+	text-align: center;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+li {
+	grid-column: 2/3;
+	color: #D6D8DD;
+	list-style-type: square;
+}
+
+
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1.5fr 2fr;
+	grid-template-rows: 1fr 2fr 1fr;
+	height: 100vh;
+	
+}
+
+.column {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background-color: #003E15;
+	opacity: 0.8;
+}
+
+.field {
+	display: flex;
+	justify-content: center;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 80px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey
+
+}
