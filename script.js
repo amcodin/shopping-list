@@ -44,7 +44,6 @@ function removeItem(event)  {
 
 // adds event listener to each item to toggle them done when clicked.
 function createToggle(eachItem) {
-    eachItem.tagName === "LI" //ensures passed argument is a list element
     eachItem.addEventListener("click", function(event) {
     event.target.classList.toggle("done"); // turns ON and OFF style 'line-through' when item is clicked.
             
